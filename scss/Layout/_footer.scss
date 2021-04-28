@@ -1,0 +1,7 @@
+.l-footer {
+  background-color: $footer-bg;
+  font-size: 16px;
+  @media screen and (max-width: 1000px) {
+    font-size: 10px;
+  }
+}

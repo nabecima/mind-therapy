@@ -1,0 +1,23 @@
+.p-form {
+  background-color: $form-section;
+
+  form {
+    background-color: $form-content;
+  }
+
+  input {
+    width: 100%;
+    border: 2px solid $primary;
+    border-radius: 10px;
+    padding: 3.5rem;
+    font-size: 3rem;
+  }
+
+  img {
+    filter: drop-shadow(5px 5px 5px #aaa);
+  }
+
+  .c-container {
+    box-shadow: none;
+  }
+}

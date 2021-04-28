@@ -1,0 +1,34 @@
+html {
+  font-size: 10px;
+  @media screen and (max-width: 1000px) {
+    font-size: 1vw;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: blue;
+}
+
+body {
+  @include set_bg("../images/body_bg.png", $attach: fixed);
+  color: $body;
+}
+
+section p {
+  font-size: 2rem;
+  line-height: 1.5;
+  @media screen and (max-width: 768px) {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p.u-mb2 {
+    margin-bottom: 5rem;
+  }
+}

@@ -1,0 +1,14 @@
+.p-customer {
+  padding-bottom: 6rem;
+  &__reviews {
+    background-color: $reviews-bg;
+  }
+
+  &__review-content {
+    background-color: $review-bg;
+  }
+
+  &__questions {
+    background-color: $list-bg;
+  }
+}

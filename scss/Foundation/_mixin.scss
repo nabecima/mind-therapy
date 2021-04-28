@@ -1,0 +1,7 @@
+@mixin set_bg($path, $size: cover, $attach: scroll) {
+  background-image: url($path);
+  background-repeat: no-repeat;
+  background-size: $size;
+  background-position: center;
+  background-attachment: $attach;
+}

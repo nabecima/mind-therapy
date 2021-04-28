@@ -1,0 +1,16 @@
+.l-header {
+  &__container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  &__first-view {
+    @include set_bg("../images/stars.png");
+  }
+
+  &__text-wrapper {
+    @include set_bg("../images/header_bg.png");
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}

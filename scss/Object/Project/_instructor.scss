@@ -1,0 +1,12 @@
+.p-instructor {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+
+  &__profile-wrapper {
+    background-color: $profile-wrapper-bg;
+  }
+
+  &__profile {
+    background-color: $profile-bg;
+  }
+}
